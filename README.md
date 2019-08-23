@@ -31,3 +31,7 @@ git reset
 - git reset --soft <to-comit>: quay lai trang thai trong staging
 - git reset --mixed <to-commit>: quay lai trang thai trong working dir
 - git reset --hard <to-commit>: bo commit trc do ra khoi repository
+
+
+
+git revert <commit>: tao 1 commit moi o tren va dao nguoc lai commmit cu (ctrl + x)
