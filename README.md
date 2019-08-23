@@ -12,3 +12,22 @@ git diff: xem su thay doi cua 1 file
 working directory: nhung file bi modified se o day
 staging area: nhung file da dc add (mau xanh)
 git repository: nhung thay doi o staging da dc cho vao repository, luu tap hop nhung thay doi cua cac commit
+
+git checkout --<file>: bo doan code da sua
+git reset (HEAD) <file>: chuyen tu staging xuong working
+
+git checkout -b <branch> (branching): tao 1 branch moi
+git checkout <branch>: chuyen den lam viec voi branch do
+git merge
+- A <-- B
+- git checkout A
+- git merge B
+- master <-- feature/dog-class
+
+git branch -D <branch> (delete a branch)
+
+
+git reset
+- git reset --soft <to-comit>: quay lai trang thai trong staging
+- git reset --mixed <to-commit>: quay lai trang thai trong working dir
+- git reset --hard <to-commit>: bo commit trc do ra khoi repository
