@@ -35,3 +35,11 @@ git reset
 
 
 git revert <commit>: tao 1 commit moi o tren va dao nguoc lai commmit cu (ctrl + x)
+
+.gitignore: file chua cac folder do minh add node module tao ra ma minh ko muon hien thi o repo vi qua nang
+
+git credential: ko phai nhap lai pass nhieu lan khi push: git config --global credential.helper "cache --timeout=18000"
+
+git clone & pull:
+- git clone <link to repo> (o thu muc tong)
+- git pull
